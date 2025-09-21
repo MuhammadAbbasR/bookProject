@@ -1,0 +1,73 @@
+/* General container */
+.app-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Headings */
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+h2 {
+  margin-top: 30px;
+  color: #444;
+}
+
+/* Forms */
+form {
+  margin-bottom: 20px;
+}
+
+input {
+  margin: 5px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  margin: 5px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Specific button styles */
+button[type="submit"] {
+  background-color: #28a745;
+  color: white;
+}
+
+button.cancel-btn {
+  background-color: #6c757d;
+  color: white;
+}
+
+button.edit-btn {
+  background-color: #007bff;
+  color: white;
+}
+
+button.delete-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+/* Book list */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #fafafa;
+}
